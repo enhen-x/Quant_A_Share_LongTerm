@@ -1,0 +1,48 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.dll
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# Environments
+.env
+.venv
+env/
+venv
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Editors / OS
+.vscode/
+.settings/
+.DS_Store
+Thumbs.db
+
+# Project data and outputs
+/data/
+logs/
+figures/
+reports/
+cache/
+notebooks/
+
+# Jupyter notebooks with large outputs
+*.ipynb
+
+# Secrets / tokens
+config/*_local.yaml
+config/secrets.yaml
+
+# Misc
+*.log
+nul
