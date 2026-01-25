@@ -261,7 +261,7 @@ def run_visualization(config_path: str = "config/main.yaml", window: int = 20, p
     config = Config(config_path)
     
     data_dir = Path(config.get("data.raw_dir", "data/raw")) / "index"
-    figures_dir = Path("figures") / "distribution"
+    figures_dir = Path("figures") / "distribution" / "index"
     ensure_dir(figures_dir)
     
     # 获取所有指数文件
